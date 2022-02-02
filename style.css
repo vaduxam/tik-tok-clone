@@ -1,0 +1,143 @@
+body {
+    background: #EBEBEB;
+}
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 300px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 200px;
+    background-color: #F7F7F7; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px;
+ 
+}
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 6px 8px 20px 100px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #818181;
+        display: block;
+    }
+    .name {
+        padding: 7px 4px 20px 60px;
+        font-size: 24px;
+        font-family: "Times New Roman", Times, serif;
+        color: #424040;
+        display: block;
+        border-bottom: 1px solid rgb(158, 71, 71);
+    }
+.mainp{
+    padding: 1px 4px 20px 20px;
+    font-size: 21px;
+    font-family: "Times New Roman", Times, serif;
+    color: #424040;
+    display: block;
+   
+}
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+            color: white;
+            /*background: #3B8016;*/
+            background: #BA1917
+        }
+
+/* Style page content */
+.main {
+    margin-left: 180px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 22px;
+        }
+}
+.sidenav a i.fa {
+    left: 75px;
+    position: absolute;
+    padding: 6px 1px 1px 1px;
+    display: block;
+    font-size: 14px;
+}
+.border {
+    width: 300px;
+    margin: 0 auto;
+    background: white;
+    
+    border: 1px solid #F1E7E8;
+}
+
+.border:hover .product-wrap:after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.d5 {
+    background: #F7F7F7;
+   
+}
+.d5 input, .d5 button {
+  outline: none;
+  background: transparent;
+}
+.d5 input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+  border: 3px solid #ffffff;
+}
+.d5 button {
+  border: none;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+  
+}
+.d5 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F7F7F7;
+}
+.d5 input:focus {
+  border-color: rgb(158, 71, 71);
+}
+div {padding: 5px 0}
+form {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  right: 150px;
+}
+.enter{
+   padding:  6px 8px 6px 55px;
+}
+.menu{
+    left: 800 px;
+}
+.clue{
+    
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    vertical-align: middle
+}
+.ch{
+    border-bottom: 1px solid rgb(158, 71, 71);
+  
+}
